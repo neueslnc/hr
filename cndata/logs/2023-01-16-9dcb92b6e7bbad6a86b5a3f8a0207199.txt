@@ -1,0 +1,22 @@
+Time : 05:21:33
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM productsready WHERE id =
+
+Time : 05:13:22
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ps.ingname_id' in 'on clause'
+Raw SQL : SELECT *, `ps`.`id` as `idp`, `pn`.`productname` as `penek`, `in`.`ingname` as `kesha` FROM `productnames` as `pn` 
+                                	LEFT JOIN `ingredients` as `in` ON `ps`.`ingname_id` = `in`.`id`
+                                    LEFT JOIN `productsready` as `ps` ON `ps`.`productname_id` = `pn`.`id`
+                                    ;
+
+Time : 04:57:41
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM productnames WHERE id =
+
+Time : 04:57:11
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM productnames WHERE id =
+
+Time : 04:31:26
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM ingredients WHERE id =

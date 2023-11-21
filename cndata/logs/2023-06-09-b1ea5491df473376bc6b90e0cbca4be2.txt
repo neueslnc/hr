@@ -1,0 +1,7 @@
+Time : 09:00:52
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.status' in 'where clause'
+Raw SQL : SELECT p.*, c.comment FROM `personnel` as p LEFT JOIN comments as c ON c.person_id = p.id AND c.user_id = ? WHERE p.status = 0 GROUP BY p.id ORDER BY c.comment ASC
+
+Time : 09:00:29
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.status' in 'where clause'
+Raw SQL : SELECT p.*, c.comment FROM `personnel` as p LEFT JOIN comments as c ON c.person_id = p.id AND c.user_id = ? WHERE p.status = 0 GROUP BY p.id ORDER BY c.comment ASC

@@ -1,0 +1,78 @@
+Time : 21:51:33
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=< ? GROUP BY id_product, s.date' at line 1
+Raw SQL : SELECT *, SUM(qty) as sum FROM `sales_products` AS `sp` LEFT JOIN `productnames` as `pn` ON `pn`.`id` = `sp`.`id_product` LEFT JOIN `sales` as `s` ON `s`.`id_check` = `sp`.`id_check` WHERE s.date >= ? AND s.date =< ? GROUP BY id_product, s.date;
+
+Time : 21:29:18
+SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'cafev.sp.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+Raw SQL : SELECT *, SUM(qty) as sum FROM `sales_products` AS `sp` LEFT JOIN `productnames` as `pn` ON `pn`.`id` = `sp`.`id_product` LEFT JOIN `sales` as `s` ON `s`.`id_check` = `sp`.`id_check` GROUP BY id_product, s.date;
+
+Time : 19:20:50
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, SUM(qty) as sum FROM `sales_products` AS `sp` LEFT JOIN `productnames` as ...' at line 1
+Raw SQL : SELECT pn.id, *, SUM(qty) as sum FROM `sales_products` AS `sp` LEFT JOIN `productnames` as `pn` ON `pn`.`id` = `sp`.`id_product` LEFT JOIN `sales` as `s` ON `s`.`id_check` = `sp`.`id_check` GROUP BY id_product, s.date;
+
+Time : 19:14:10
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'date' in 'group statement'
+Raw SQL : SELECT *, SUM(qty) as sum FROM `sales_products` AS `s` LEFT JOIN `productnames` as `pn` ON `pn`.`id` = `s`.`id_product` GROUP BY id_product, date;
+
+Time : 19:13:43
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'product' in 'group statement'
+Raw SQL : SELECT *, SUM(qty) as sum FROM `sales_products` AS `s` LEFT JOIN `productnames` as `pn` ON `pn`.`id` = `s`.`id_product` GROUP BY product, date;
+
+Time : 19:13:30
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.product' in 'on clause'
+Raw SQL : SELECT *, SUM(qty) as sum FROM `sales_products` AS `s` LEFT JOIN `productnames` as `pn` ON `pn`.`id` = `s`.`product` GROUP BY product, date;
+
+Time : 19:12:20
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qty' in 'field list'
+Raw SQL : SELECT *, SUM(qty) as sum FROM `sales` AS `s` LEFT JOIN `productnames` as `pn` ON `pn`.`id` = `s`.`product` GROUP BY product, date;
+
+Time : 19:12:16
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qty' in 'field list'
+Raw SQL : SELECT *, SUM(qty) as sum FROM `sales` AS `s` LEFT JOIN `productnames` as `pn` ON `pn`.`id` = `s`.`product` GROUP BY product, date;
+
+Time : 19:12:11
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qty' in 'field list'
+Raw SQL : SELECT *, SUM(qty) as sum FROM `sales` AS `s` LEFT JOIN `productnames` as `pn` ON `pn`.`id` = `s`.`product` GROUP BY product, date;
+
+Time : 19:11:23
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qty' in 'field list'
+Raw SQL : SELECT *, SUM(qty) as sum FROM `sales` AS `s` LEFT JOIN `productnames` as `pn` ON `pn`.`id` = `s`.`product` GROUP BY product, date;
+
+Time : 19:11:10
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qty' in 'field list'
+Raw SQL : SELECT *, SUM(qty) as sum FROM `sales` AS `s` LEFT JOIN `productnames` as `pn` ON `pn`.`id` = `s`.`product` GROUP BY product, date;
+
+Time : 18:43:41
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'otdel' in 'field list'
+Raw SQL : INSERT INTO `sales` (`id_check`,`otdel`,`procent`,`sum`,`payment`)
+			VALUES (:id_check,:otdel,:procent,:sum,:payment)
+
+Time : 18:35:08
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'paymnet' in 'field list'
+Raw SQL : INSERT INTO `sales` (`id_check`,`otdel`,`procent`,`sum`,`paymnet`)
+			VALUES (:id_check,:otdel,:procent,:sum,:paymnet)
+
+Time : 18:34:33
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'paymnet' in 'field list'
+Raw SQL : INSERT INTO `sales` (`id_check`,`otdel`,`procent`,`sum`,`paymnet`)
+			VALUES (:id_check,:otdel,:procent,:sum,:paymnet)
+
+Time : 18:33:34
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'paymnet' in 'field list'
+Raw SQL : INSERT INTO `sales` (`id_check`,`otdel`,`procent`,`sum`,`paymnet`)
+			VALUES (:id_check,:otdel,:procent,:sum,:paymnet)
+
+Time : 18:30:01
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'paymnet' in 'field list'
+Raw SQL : INSERT INTO `sales` (`id_check`,`otdel`,`procent`,`sum`,`paymnet`)
+			VALUES (:id_check,:otdel,:procent,:sum,:paymnet)
+
+Time : 17:47:14
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cafev.sales_products' doesn't exist
+Raw SQL : INSERT INTO `sales_products` (`id_check`,`id_product`,`qty`,`price`)
+			VALUES (:id_check,:id_product,:qty,:price)
+
+Time : 10:21:58
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_product' cannot be null
+Raw SQL : INSERT INTO `sales_products` (`id_check`,`id_product`,`qty`,`price`)
+			VALUES (:id_check,:id_product,:qty,:price)

@@ -1,0 +1,9 @@
+Time : 05:51:03
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'point' in 'field list'
+Raw SQL : INSERT INTO `sales` (`id_check`,`point`,`smena`,`procent`,`sum`,`payment`,`date`)
+			VALUES (:id_check,:point,:smena,:procent,:sum,:payment,:date)
+
+Time : 05:50:54
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_product' cannot be null
+Raw SQL : INSERT INTO `sales_products` (`id_check`,`id_product`,`qty`,`price`)
+			VALUES (:id_check,:id_product,:qty,:price)

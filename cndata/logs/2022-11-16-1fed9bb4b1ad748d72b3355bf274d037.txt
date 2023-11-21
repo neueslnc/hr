@@ -1,0 +1,235 @@
+Time : 01:15:43
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(brooms.ischeck) as bischecksum, 
+    SUM(brooms.gaz) as bgazsum, SUM(brooms....' at line 1
+Raw SQL : SELECT brooms.region_id, brooms.city_id, brooms.parent_id as parentSUM(brooms.ischeck) as bischecksum, 
+    SUM(brooms.gaz) as bgazsum, SUM(brooms.flag) as bflagsum,
+    SUM(brooms.treb) as btrebsum, SUM(boilers.ischeck) as bochecksum, 
+    SUM(boilers.gaz) as bogazsum, SUM(boilers.flag) as bosumflag, SUM(boilers.treb) as botrebsum 
+    FROM brooms, boilers  WHERE brooms.city_id = '7'
+
+Time : 01:15:38
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(brooms.ischeck) as bischecksum, 
+    SUM(brooms.gaz) as bgazsum, SUM(brooms....' at line 1
+Raw SQL : SELECT brooms.region_id, brooms.city_id, brooms.parent_id as parentSUM(brooms.ischeck) as bischecksum, 
+    SUM(brooms.gaz) as bgazsum, SUM(brooms.flag) as bflagsum,
+    SUM(brooms.treb) as btrebsum, SUM(boilers.ischeck) as bochecksum, 
+    SUM(boilers.gaz) as bogazsum, SUM(boilers.flag) as bosumflag, SUM(boilers.treb) as botrebsum 
+    FROM brooms, boilers  WHERE brooms.city_id = '7'
+
+Time : 01:15:36
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(brooms.ischeck) as bischecksum, 
+    SUM(brooms.gaz) as bgazsum, SUM(brooms....' at line 1
+Raw SQL : SELECT brooms.region_id, brooms.city_id, brooms.parent_id as parentSUM(brooms.ischeck) as bischecksum, 
+    SUM(brooms.gaz) as bgazsum, SUM(brooms.flag) as bflagsum,
+    SUM(brooms.treb) as btrebsum, SUM(boilers.ischeck) as bochecksum, 
+    SUM(boilers.gaz) as bogazsum, SUM(boilers.flag) as bosumflag, SUM(boilers.treb) as botrebsum 
+    FROM brooms, boilers  WHERE brooms.city_id = '3'
+
+Time : 01:15:01
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(brooms.ischeck) as bischecksum, 
+    SUM(brooms.gaz) as bgazsum, SUM(brooms....' at line 1
+Raw SQL : SELECT brooms.region_id, brooms.city_id, brooms.parent_id as parentSUM(brooms.ischeck) as bischecksum, 
+    SUM(brooms.gaz) as bgazsum, SUM(brooms.flag) as bflagsum,
+    SUM(brooms.treb) as btrebsum, SUM(boilers.ischeck) as bochecksum, 
+    SUM(boilers.gaz) as bogazsum, SUM(boilers.flag) as bosumflag, SUM(boilers.treb) as botrebsum 
+    FROM brooms, boilers  WHERE brooms.city_id = '3'
+
+Time : 01:14:57
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 01:14:52
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 01:14:52
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 01:14:51
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 01:14:51
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 01:14:51
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 01:14:50
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 01:14:50
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 01:14:50
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 01:14:49
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 01:13:25
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 01:12:33
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 01:12:25
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 01:12:25
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 01:12:25
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 01:12:24
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 01:12:15
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE regionname=
+
+Time : 01:12:05
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 01:12:05
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 01:12:04
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 01:12:04
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 01:11:57
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 01:11:49
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 01:11:49
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 01:11:49
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 01:11:48
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 01:11:42
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 01:11:41
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 01:11:23
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE regionname=
+
+Time : 01:11:23
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE regionname=
+
+Time : 01:11:23
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE regionname=
+
+Time : 01:11:23
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE regionname=
+
+Time : 01:11:22
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE regionname=
+
+Time : 01:11:21
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE regionname=
+
+Time : 01:10:56
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM regionname WHERE id=
+
+Time : 01:10:56
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM regionname WHERE id=
+
+Time : 01:10:56
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM regionname WHERE id=
+
+Time : 01:10:56
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM regionname WHERE id=
+
+Time : 01:10:56
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM regionname WHERE id=
+
+Time : 01:10:55
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM regionname WHERE id=
+
+Time : 01:10:55
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM regionname WHERE id=
+
+Time : 01:10:23
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 01:10:13
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 01:09:42
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 01:09:11
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 00:36:48
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 00:33:20
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 00:33:19
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 00:33:03
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM cityname WHERE id=
+
+Time : 00:14:09
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM regionsname WHERE id=

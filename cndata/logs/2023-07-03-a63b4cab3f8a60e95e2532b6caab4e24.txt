@@ -1,0 +1,7 @@
+Time : 06:26:12
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u415759297_hr.teachers' doesn't exist
+Raw SQL : SELECT e.*, d.depname FROM `teachers` as e LEFT JOIN departments as d ON e.department = d.id  ORDER BY e.id DESC
+
+Time : 06:19:05
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u415759297_hr.teachers' doesn't exist
+Raw SQL : SELECT e.*, d.depname FROM `teachers` as e LEFT JOIN departments as d ON e.department = d.id  ORDER BY e.id DESC

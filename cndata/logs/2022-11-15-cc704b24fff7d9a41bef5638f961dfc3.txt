@@ -1,0 +1,171 @@
+Time : 23:55:27
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY brooms.region_id' at line 6
+Raw SQL : SELECT brooms.region_id, SUM(brooms.ischeck) as bischecksum, 
+    SUM(brooms.gaz) as bgazsum, SUM(brooms.flag) as bflagsum,
+    SUM(brooms.treb) as btrebsum, SUM(boilers.ischeck) as bochecksum, 
+    SUM(boilers.gaz) as bogazsum, SUM(boilers.flag) as bosumflag, SUM(boilers.treb) as botrebsum 
+    FROM brooms, boilers WHERE 
+    GROUP BY brooms.region_id
+
+Time : 23:55:10
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY brooms.region_id' at line 6
+Raw SQL : SELECT brooms.region_id, SUM(brooms.ischeck) as bischecksum, 
+    SUM(brooms.gaz) as bgazsum, SUM(brooms.flag) as bflagsum,
+    SUM(brooms.treb) as btrebsum, SUM(boilers.ischeck) as bochecksum, 
+    SUM(boilers.gaz) as bogazsum, SUM(boilers.flag) as bosumflag, SUM(boilers.treb) as botrebsum 
+    FROM brooms, boilers WHERE 
+    GROUP BY brooms.region_id ;
+
+Time : 22:45:51
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'boiler_id' in 'field list'
+Raw SQL : INSERT INTO broomcheck (id,problems, checkdescription, boiler_id )
+VALUES(?,?,?,?)
+
+Time : 22:45:12
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'boiler_id' in 'field list'
+Raw SQL : INSERT INTO broomcheck (id,problems, checkdescription, boiler_id )
+VALUES(?,?,?,?)
+
+Time : 21:39:16
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 21:39:16
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 21:38:52
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 21:29:41
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 21:28:48
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 21:27:38
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 21:27:32
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 21:27:29
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 21:27:26
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 21:27:26
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 21:27:25
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 21:27:25
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 21:27:24
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 21:27:24
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 21:27:23
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 21:27:05
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 21:27:04
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 21:27:04
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 21:27:04
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 21:27:03
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 21:27:02
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 21:27:01
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 21:26:50
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 21:26:49
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 21:25:52
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 21:25:52
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 21:25:52
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 21:25:51
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 21:25:51
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 21:25:50
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 21:25:28
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 21:25:26
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM brooms WHERE parent_id =
+
+Time : 19:42:01
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+VALUES(?,?,?,?,?,?,?,?,?)' at line 1
+Raw SQL : INSERT INTO brooms (id,broomname,  region_id, parent_id, ischeck, isorder, broomdesc, topl, gaz, )
+VALUES(?,?,?,?,?,?,?,?,?)
+
+Time : 19:41:08
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+VALUES(?,?,?,?,?,?,?,?)' at line 1
+Raw SQL : INSERT INTO brooms (id,broomname,  region_id, parent_id, ischeck, isorder, broomdesc, topl, gaz, )
+VALUES(?,?,?,?,?,?,?,?)
+
+Time : 06:23:26
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'where clause'
+Raw SQL : SELECT * FROM brooms WHERE name=37

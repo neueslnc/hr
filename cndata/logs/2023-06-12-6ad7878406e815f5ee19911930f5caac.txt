@@ -1,0 +1,11 @@
+Time : 06:39:24
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id = ?' at line 1
+Raw SQL : UPDATE personnel SET fio = ?, bith_date=?, direction=?,  lavozim=?, phone=?, WHERE id = ?
+
+Time : 06:39:14
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id = ?' at line 1
+Raw SQL : UPDATE personnel SET fio = ?, bith_date=?, direction=?,  lavozim=?, phone=?, WHERE id = ?
+
+Time : 06:38:30
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id = ?' at line 1
+Raw SQL : UPDATE personnel SET fio = ?, bith_date=?, direction=?,  lavozim=?, phone=?, WHERE id = ?

@@ -1,0 +1,69 @@
+Time : 09:53:34
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_product' cannot be null
+Raw SQL : INSERT INTO `sales_products` (`id_check`,`id_product`,`qty`,`price`)
+			VALUES (:id_check,:id_product,:qty,:price)
+
+Time : 09:53:25
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_product' cannot be null
+Raw SQL : INSERT INTO `sales_products` (`id_check`,`id_product`,`qty`,`price`)
+			VALUES (:id_check,:id_product,:qty,:price)
+
+Time : 09:51:36
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_product' cannot be null
+Raw SQL : INSERT INTO `sales_products` (`id_check`,`id_product`,`qty`,`price`)
+			VALUES (:id_check,:id_product,:qty,:price)
+
+Time : 09:38:46
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_product' cannot be null
+Raw SQL : INSERT INTO `sales_products` (`id_check`,`id_product`,`qty`,`price`)
+			VALUES (:id_check,:id_product,:qty,:price)
+
+Time : 06:40:35
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_product' cannot be null
+Raw SQL : INSERT INTO `sales_products` (`id_check`,`id_product`,`qty`,`price`)
+			VALUES (:id_check,:id_product,:qty,:price)
+
+Time : 06:40:28
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_product' cannot be null
+Raw SQL : INSERT INTO `sales_products` (`id_check`,`id_product`,`qty`,`price`)
+			VALUES (:id_check,:id_product,:qty,:price)
+
+Time : 06:39:56
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_product' cannot be null
+Raw SQL : INSERT INTO `sales_products` (`id_check`,`id_product`,`qty`,`price`)
+			VALUES (:id_check,:id_product,:qty,:price)
+
+Time : 05:53:09
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cafev.sales_products' doesn't exist
+Raw SQL : INSERT INTO `sales_products` (`id_check`,`id_product`,`qty`,`price`)
+			VALUES (:id_check,:id_product,:qty,:price)
+
+Time : 05:52:55
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cafev.sales_products' doesn't exist
+Raw SQL : INSERT INTO `sales_products` (`id_check`,`id_product`,`qty`,`price`)
+			VALUES (:id_check,:id_product,:qty,:price)
+
+Time : 05:52:55
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cafev.sales_products' doesn't exist
+Raw SQL : INSERT INTO `sales_products` (`id_check`,`id_product`,`qty`,`price`)
+			VALUES (:id_check,:id_product,:qty,:price)
+
+Time : 05:52:55
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cafev.sales_products' doesn't exist
+Raw SQL : INSERT INTO `sales_products` (`id_check`,`id_product`,`qty`,`price`)
+			VALUES (:id_check,:id_product,:qty,:price)
+
+Time : 05:52:54
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cafev.sales_products' doesn't exist
+Raw SQL : INSERT INTO `sales_products` (`id_check`,`id_product`,`qty`,`price`)
+			VALUES (:id_check,:id_product,:qty,:price)
+
+Time : 05:52:54
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cafev.sales_products' doesn't exist
+Raw SQL : INSERT INTO `sales_products` (`id_check`,`id_product`,`qty`,`price`)
+			VALUES (:id_check,:id_product,:qty,:price)
+
+Time : 05:52:53
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cafev.sales_products' doesn't exist
+Raw SQL : INSERT INTO `sales_products` (`id_check`,`id_product`,`qty`,`price`)
+			VALUES (:id_check,:id_product,:qty,:price)

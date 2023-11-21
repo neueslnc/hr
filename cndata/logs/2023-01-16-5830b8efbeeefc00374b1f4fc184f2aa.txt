@@ -1,0 +1,7 @@
+Time : 13:10:57
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Выбрать' in 'where clause'
+Raw SQL : SELECT * FROM `ingredients` WHERE `id` = Выбрать
+
+Time : 13:10:56
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Выбрать' in 'where clause'
+Raw SQL : SELECT * FROM `ingredients` WHERE `id` = Выбрать

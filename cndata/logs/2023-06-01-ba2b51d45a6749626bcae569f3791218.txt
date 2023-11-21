@@ -1,0 +1,41 @@
+Time : 19:57:57
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's.date BETWEEN  ? AND ? GROUP BY sp.id_product, s.date' at line 10
+Raw SQL : SELECT 
+                                        *, 
+                                        sp.id_product, 
+                                        SUM(qty) as sum, 
+                                        SUM(qty * price) as sum1 
+                                    FROM 
+                                        `sales_products` AS `sp` 
+                                    LEFT JOIN `productnames` as `pn` ON `pn`.`id` = `sp`.`id_product` 
+                                    LEFT JOIN `sales` as `s` ON `s`.`id_check` = `sp`.`id_check` 
+                                    WHERE s.point = ? s.date BETWEEN  ? AND ? GROUP BY sp.id_product, s.date;
+
+Time : 19:49:40
+SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'cafev.sp.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+Raw SQL : SELECT *, sp.id_product, SUM(qty) as sum, SUM(qty * price) as sum1 FROM `sales_products` AS `sp` LEFT JOIN `productnames` as `pn` ON `pn`.`id` = `sp`.`id_product` LEFT JOIN `sales` as `s` ON `s`.`id_check` = `sp`.`id_check` WHERE s.date BETWEEN  ? AND ? GROUP BY sp.id_product, s.date;
+
+Time : 19:43:58
+SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'cafev.sp.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+Raw SQL : SELECT *, sp.id_product, SUM(qty) as sum, SUM(qty * price) as sum1 FROM `sales_products` AS `sp` LEFT JOIN `productnames` as `pn` ON `pn`.`id` = `sp`.`id_product` LEFT JOIN `sales` as `s` ON `s`.`id_check` = `sp`.`id_check` WHERE s.date BETWEEN  ? AND ? GROUP BY sp.id_product, s.date;
+
+Time : 19:17:07
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_product' cannot be null
+Raw SQL : INSERT INTO `sales_products` (`id_check`,`id_product`,`qty`,`price`)
+			VALUES (:id_check,:id_product,:qty,:price)
+
+Time : 18:48:24
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_product' cannot be null
+Raw SQL : INSERT INTO `sales_products` (`id_check`,`id_product`,`qty`,`price`)
+			VALUES (:id_check,:id_product,:qty,:price)
+
+Time : 18:47:42
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'smena' at row 1
+Raw SQL : INSERT INTO `sales` (`id_check`,`point`,`smena`,`procent`,`sum`,`payment`,`date`)
+			VALUES (:id_check,:point,:smena,:procent,:sum,:payment,:date)
+
+Time : 18:41:55
+SQLSTATE[HY000] [1049] Unknown database 'cafev'
+
+Time : 18:41:55
+SQLSTATE[HY000] [1049] Unknown database 'cafev'

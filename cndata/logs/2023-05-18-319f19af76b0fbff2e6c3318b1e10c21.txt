@@ -1,0 +1,11 @@
+Time : 07:42:35
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*, SUM(qty) as sum FROM `sales_products` AS `sp` LEFT JOIN `productnames` as `pn' at line 1
+Raw SQL : SELECT sp.id, *, SUM(qty) as sum FROM `sales_products` AS `sp` LEFT JOIN `productnames` as `pn` ON `pn`.`id` = `sp`.`id_product` LEFT JOIN `sales` as `s` ON `s`.`id_check` = `sp`.`id_check` WHERE s.date BETWEEN  ? AND ? GROUP BY sp.id_product, s.date;
+
+Time : 07:02:20
+SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'cafev.sp.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+Raw SQL : SELECT *, SUM(qty) as sum FROM `sales_products` AS `sp` LEFT JOIN `productnames` as `pn` ON `pn`.`id` = `sp`.`id_product` LEFT JOIN `sales` as `s` ON `s`.`id_check` = `sp`.`id_check` WHERE s.date BETWEEN  ? AND ? GROUP BY id_product, s.date;
+
+Time : 07:02:17
+SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'cafev.sp.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+Raw SQL : SELECT *, SUM(qty) as sum FROM `sales_products` AS `sp` LEFT JOIN `productnames` as `pn` ON `pn`.`id` = `sp`.`id_product` LEFT JOIN `sales` as `s` ON `s`.`id_check` = `sp`.`id_check` WHERE s.date BETWEEN  ? AND ? GROUP BY id_product, s.date;

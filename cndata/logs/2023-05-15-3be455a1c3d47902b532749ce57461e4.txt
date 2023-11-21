@@ -1,0 +1,4 @@
+Time : 22:41:36
+SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+Raw SQL : INSERT INTO `sales` (`id_check`,`otdel`,`procent`)
+			VALUES (:id_check,:otdel,:procent)

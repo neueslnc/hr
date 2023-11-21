@@ -1,0 +1,31 @@
+Time : 20:47:24
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Выбрать' in 'where clause'
+Raw SQL : SELECT * FROM `ingredients` WHERE `id` = Выбрать
+
+Time : 20:47:14
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Выбрать' in 'where clause'
+Raw SQL : SELECT * FROM `ingredients` WHERE `id` = Выбрать
+
+Time : 17:55:00
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Выбрать' in 'where clause'
+Raw SQL : SELECT * FROM `ingredients` WHERE `id` = Выбрать
+
+Time : 17:54:52
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Выбрать' in 'where clause'
+Raw SQL : SELECT * FROM `ingredients` WHERE `id` = Выбрать
+
+Time : 17:54:49
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Выбрать' in 'where clause'
+Raw SQL : SELECT * FROM `ingredients` WHERE `id` = Выбрать
+
+Time : 17:42:30
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Выбрать' in 'where clause'
+Raw SQL : SELECT * FROM `ingredients` WHERE `id` = Выбрать
+
+Time : 17:42:18
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Выбрать' in 'where clause'
+Raw SQL : SELECT * FROM `ingredients` WHERE `id` = Выбрать
+
+Time : 17:29:29
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Выбрать' in 'where clause'
+Raw SQL : SELECT * FROM `productsready` WHERE `productname_id` = Выбрать
